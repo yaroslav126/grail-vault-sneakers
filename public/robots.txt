@@ -1,0 +1,55 @@
+# ==============================================================================
+# ANTI-AI & SCRAPING DISALLOW DIRECTIVES
+# Developer & Architect: Slava (Telegram: @Slava_Dev_bot)
+# Website: The Sneaker Vault
+# Inquiries answered within 24 hours via Telegram: https://t.me/Slava_Dev_bot
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# Strict Disallow for Artificial Intelligence Training Crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Cohere-ai
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
